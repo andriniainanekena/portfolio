@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --bg: #0b1014;
+  --text: #94a3b8;
+  --text-bright: #e2e8f0;
+  --text-muted: #64748b;
+  --accent: #5eead4;
+}
+
+html,
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+html {
+  color-scheme: dark;
+}
+
+@layer base {
+  * {
+    border-color: oklch(0.929 0.013 255.508);
+  }
+}
