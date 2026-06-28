@@ -188,7 +188,7 @@ function Sidebar({ active, onNavClick }: { active: string; onNavClick: (id: stri
           ))}
         </ul>
         <a
-          href="/resume.pdf"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
           download
           aria-label="Download CV"
           className="group flex h-10 w-10 items-center justify-center rounded-lg border border-[var(--accent)]/30 bg-[var(--accent)]/[0.08] text-[var(--accent)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[var(--accent)]/60 hover:bg-[var(--accent)]/[0.14]"

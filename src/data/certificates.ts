@@ -15,7 +15,7 @@ export const certificates: Certificate[] = [
     name: "JavaScript CodinGame",
     organization: "CodinGame",
     year: "2026",
-    image: "/portfolio-v2/certificates/javascript.png",
+    image: "${import.meta.env.BASE_URL}certificates/javascript.png",
     description:
       "JavaScript certification from CodinGame, validating problem-solving skills through algorithmic challenges.",
     topics: ["Algorithms", "Array methods"],
