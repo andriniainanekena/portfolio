@@ -6,14 +6,14 @@ export const educationList: Education[] = [
     period: "2026 - Present",
     field: "Common Core",
     description:
-      "A peer-driven, project-based program in C and Python focused on algorithms, low-level programming, and problem-solving.",
+      "A peer-driven, project-based program in C and Python, focused on algorithms, low-level programming, and problem-solving.",
   },
   {
     institution: "Haute École d'Informatique",
     period: "2024 - Present",
     field: "Licence 2",
     description:
-      "A broad curriculum covering web development, object-oriented programming, networking, and database design, grounding my engineering practice.",
+      "A curriculum covering networking, system administration, web development, object-oriented programming and database design.",
   },
   {
     institution: "St. Champagnat Anatihazo",

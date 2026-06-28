@@ -6,7 +6,7 @@ export const projects: Project[] = [
     description:
       "Expense tracker built to manage personal finances through categorized income and expenses, real-time balance calculation and intuitive data visualization.",
     technologies: ["Spring Boot", "Java", "PostgreSQL", "React", "TypeScript", "Tailwind CSS"],
-    image: "/projects/project1.jpg",
+    image: "/portfolio-v2/projects/001.png",
     github: "https://github.com/andriniainanekena",
     demo: "https://github.com/andriniainanekena",
   },
@@ -14,17 +14,17 @@ export const projects: Project[] = [
     title: "EventSync",
     description:
       "Event management platform allowing users to create events, register participants and organize schedules through a clean and responsive interface.",
-    technologies: ["Spring Boot", "Java", "PostgreSQL", "React", "TypeScript", "Tailwind CSS"],
-    image: "/projects/project2.jpg",
+    technologies: ["Spring Boot", "PostgreSQL", "React", "TypeScript", "Tailwind CSS"],
+    image: "/portfolio-v2/projects/002.png",
     github: "https://github.com/andriniainanekena",
     demo: "https://github.com/andriniainanekena",
   },
   {
-    title: "TaskFlow",
+    title: "Habitly",
     description:
-      "Task management application featuring authentication, priorities, statuses and progress tracking. Designed with a clean REST API and a responsive frontend.",
-    technologies: ["Spring Boot", "Spring Security", "JWT", "PostgreSQL", "React", "TypeScript"],
-    image: "/projects/project3.jpg",
+      "Habit tracker designed to help you stay consistent, follow your daily routines, and visualize your progress over time. (In progress)",
+    technologies: ["React", "TypeScript", "TailwindCSS"],
+    image: "/portfolio-v2/projects/003.png",
     github: "https://github.com/andriniainanekena",
     demo: "https://github.com/andriniainanekena",
   },

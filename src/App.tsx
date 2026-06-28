@@ -112,7 +112,7 @@ function Sidebar({ active, onNavClick }: { active: string; onNavClick: (id: stri
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mt-4 max-w-xs leading-normal text-[var(--text)]"
         >
-          I build careful software and clean web experiences, one thoughtful line at a time.
+          I value clean, readable code and tools that are simple to use.
         </motion.p>
 
         <nav className="mt-16 hidden lg:block" aria-label="In-page jump links">
@@ -264,19 +264,13 @@ function About() {
       <Reveal>
         <div className="space-y-4 text-[var(--text)]">
           <p>
-            I'm a computer science student deeply passionate about software and web development.
-            I treat every project as a chance to learn, refine my craft, and produce work I'm
-            proud to show.
+            As a computer science student, I’m passionate about software and web development, and I enjoy learning by building real projects.
           </p>
           <p>
-            My approach is grounded in{" "}
-            <span className="text-[var(--text-bright)]">continuous learning</span>, careful
-            problem solving, and a love for building things from the ground up - whether that's
-            a small command-line tool or a full web application.
+            For me, every project is an opportunity to explore new ideas, deepen my knowledge, and create something I’m proud of, whether it’s a simple command-line tool or a full web application built from scratch.
           </p>
           <p>
-            I value clean architecture, readable code, and tools that respect the people who
-            use them.
+            Serious, curious and self-driven, I’m eager to keep learning, take on new challenges, and build strong experience in web and application development.
           </p>
         </div>
       </Reveal>
